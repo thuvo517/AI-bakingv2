@@ -1,0 +1,14 @@
+name = "ai-baking-assistant"
+main = "src/index.js"
+compatibility_date = "2025-10-01"
+
+[ai]
+binding = "AI"
+
+[[durable_objects.bindings]]
+name = "BAKING_SESSION"
+class_name = "BakingSession"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["BakingSession"]

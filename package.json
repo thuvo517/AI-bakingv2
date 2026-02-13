@@ -1,0 +1,14 @@
+{
+  "name": "ai-baking-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered baking assistant using Cloudflare Workers, Durable Objects, and Llama 3.3",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.80.0"
+  }
+}
